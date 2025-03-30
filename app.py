@@ -9,8 +9,8 @@ from langchain_groq import ChatGroq # ChatGroq class for interacting with LLMs
 
 import os
 # Retrieve and set API keys for externel tools and services
-groq_api_key = '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'
-os.environ["TAVILY_API_KEY"] = "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"
+groq_api_key = ''
+os.environ["TAVILY_API_KEY"] = ""
 
 # Predefined list of supported model names
 MODEL_NAMES = [
